@@ -1636,7 +1636,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 {
 	int64_t ret = 0 * COIN;
     
-    if (blockValue > 0 && nHeight >= 3361)
+    if (blockValue > 0 && nHeight >= 4800)
         ret = blockValue / 2;
         
 	return ret;
@@ -3006,7 +3006,7 @@ bool FindUndoPos(CValidationState& state, int nFile, CDiskBlockPos& pos, unsigne
             }
         } else
             return state.Error("out of disk space");
-    }
+    }f
 
     return true;
 }
