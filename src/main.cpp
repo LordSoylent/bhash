@@ -3006,7 +3006,7 @@ bool FindUndoPos(CValidationState& state, int nFile, CDiskBlockPos& pos, unsigne
             }
         } else
             return state.Error("out of disk space");
-    }f
+    }
 
     return true;
 }
