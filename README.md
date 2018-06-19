@@ -1,6 +1,6 @@
 # BHash Coin
 
-More information at http://bhash.io/ 
+More information on the [website](http://bhash.io/).
 
 Name: HASH
 
